@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "TicTacToe\TicT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListsExamples", "ListsExamples\ListsExamples.csproj", "{89611798-3B26-416E-B0D6-833B65664822}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashtablesEx", "HashtablesEx\HashtablesEx.csproj", "{8D0900C8-9F60-4973-BBD6-DADFC153DABD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashtablesEx", "HashtablesEx\HashtablesEx.csproj", "{8D0900C8-9F60-4973-BBD6-DADFC153DABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InheritanceDemo", "InheritanceDemo", "{C97E618E-14E1-4FE5-B380-D6F9AA8553F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo", "InheritanceDemo\InheritanceDemo.csproj", "{759913CB-6422-4BBE-AC43-8623144EA15A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +43,16 @@ Global
 		{8D0900C8-9F60-4973-BBD6-DADFC153DABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D0900C8-9F60-4973-BBD6-DADFC153DABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D0900C8-9F60-4973-BBD6-DADFC153DABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759913CB-6422-4BBE-AC43-8623144EA15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759913CB-6422-4BBE-AC43-8623144EA15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759913CB-6422-4BBE-AC43-8623144EA15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759913CB-6422-4BBE-AC43-8623144EA15A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{759913CB-6422-4BBE-AC43-8623144EA15A} = {C97E618E-14E1-4FE5-B380-D6F9AA8553F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D9A4F2F-5EE0-4F5F-A64F-B1AC2711D066}
