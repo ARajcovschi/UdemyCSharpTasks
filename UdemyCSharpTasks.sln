@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32616.157
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyCSharpTasks", "UdemyCSharpTasks\UdemyCSharpTasks.csproj", "{37727EFE-919E-41A3-A1AB-15A5D6B2FD5E}"
 EndProject
@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceDemo", "Inherita
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParsingGame", "ParsingGame\ParsingGame.csproj", "{6FAC7544-F438-4977-9E38-B9F28B7AFBB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParsingGameV2", "ParsingGameV2\ParsingGameV2.csproj", "{A00070D5-CE3C-4DE7-9065-D5E1BBFDB316}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParsingGameV2", "ParsingGameV2\ParsingGameV2.csproj", "{A00070D5-CE3C-4DE7-9065-D5E1BBFDB316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesEx", "DelegatesEx\DelegatesEx.csproj", "{46B53B26-8420-4C43-8D51-0FBBF2F122B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{A00070D5-CE3C-4DE7-9065-D5E1BBFDB316}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A00070D5-CE3C-4DE7-9065-D5E1BBFDB316}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A00070D5-CE3C-4DE7-9065-D5E1BBFDB316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B53B26-8420-4C43-8D51-0FBBF2F122B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B53B26-8420-4C43-8D51-0FBBF2F122B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B53B26-8420-4C43-8D51-0FBBF2F122B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B53B26-8420-4C43-8D51-0FBBF2F122B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
