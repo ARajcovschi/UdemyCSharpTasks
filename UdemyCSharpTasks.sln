@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParsingGameV2", "ParsingGam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesEx", "DelegatesEx\DelegatesEx.csproj", "{46B53B26-8420-4C43-8D51-0FBBF2F122B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF ZooManager", "WPF ZooManager\WPF ZooManager.csproj", "{A4AF270F-E86C-48AC-81A4-8A056396554C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF ZooManager", "WPF ZooManager\WPF ZooManager.csproj", "{A4AF270F-E86C-48AC-81A4-8A056396554C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToSQL", "LinqToSQL\LinqToSQL.csproj", "{F246D107-C7B7-4594-AD53-B7DB95B83BE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{A4AF270F-E86C-48AC-81A4-8A056396554C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4AF270F-E86C-48AC-81A4-8A056396554C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4AF270F-E86C-48AC-81A4-8A056396554C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F246D107-C7B7-4594-AD53-B7DB95B83BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F246D107-C7B7-4594-AD53-B7DB95B83BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F246D107-C7B7-4594-AD53-B7DB95B83BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F246D107-C7B7-4594-AD53-B7DB95B83BE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
