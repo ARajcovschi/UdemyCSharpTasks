@@ -28,6 +28,21 @@ namespace LinqToSQL
             InitializeComponent();
             string connectionString = ConfigurationManager.ConnectionStrings["LinqToSQL.Properties.Settings.UDEMYTutorialsDBConnectionString"].ConnectionString;
             dataContext = new LinqToSQLDataClassesDataContext(connectionString);
+
+            InsertUniversities();
         }
+        public void InsertUniversities()
+        { 
+            University yale = new University();
+            yale.Name = "Yale";
+            dataContext.Universities.InsertOnSubmit(yale);
+
+            dataContext.SubmitChanges();
+
+            MainDataGrid.ItemsSource = dataContext.Universities;
+
+
+        }
+
     }
 }
